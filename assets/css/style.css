@@ -1,0 +1,55 @@
+* {
+    display: block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.header {
+    border: 1px solid red;
+    position: relative;
+    min-height: 54px;
+    padding: 10px;
+}
+aside {
+    border: 1px solid black;
+    float: left;
+    top: 50%;
+    position: absolute;
+    width: 1%;
+}
+.tesla-h1 h1 {
+    color: pink;
+    border: 1px solid black;
+}
+.center {
+    text-align: center;
+    position: absolute;
+    float: right;
+    border: 1px solid black;
+    background-color: darksalmon;
+    width: 100%;
+    height: 472px;
+}
+.clr {
+    clear: both;
+}
+.footer-page1 {
+    position: absolute;
+    line-height: 10vh;
+    background-color: deeppink;
+    bottom: 0px;
+    width: 100%;
+}
+.logo {
+    float:left;
+}
+.nav-bar button {
+    float:right;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
