@@ -51,7 +51,6 @@
     margin-left: 40px;
 }
 aside {
-    position: sticky;
     border: 1px solid black;
     float: left;
     top: 120px;
@@ -144,21 +143,45 @@ aside li {
     color:black;
 }
 .left-page2 {
+    position: absolute;
     float: left; 
     background-color: white;
     width: 415px;
     height: 583px;
 }
 .scroll2 {
+    position: relative;
     float: left;
-    height: 100px;
-    width: 15px;
+    height: 300px;
+    top: 200px;
+    width: 1%;
     background-color: blue;
-    z-index: 1;
 }
 .main2 {
+    position: relative;
+    display: inline-block;
     float: right;
-    height: 100px;
+    height: 583px;
     width: 400px;
-    background-color: brown;
+}
+.heading2 {
+    position: relative;
+    height: 100px;
+    width:350px;
+    background-color: blue;
+    left: 25px;
+}
+.main-text2 {
+    position: relative;
+    height: 300px;
+    width:350px;
+    background-color: blueviolet;
+    left: 25px;
+}
+.button2 {
+    position: relative;
+    height: 100px;
+    width:350px;
+    background-color: burlywood;
+    left: 25px;
 }
